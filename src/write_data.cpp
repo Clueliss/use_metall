@@ -1,8 +1,8 @@
 #include "../include/common.hpp"
 
-#include <metall/metall.hpp>
-#include <iostream>
 #include <filesystem>
+#include <utility>
+#include <metall/metall.hpp>
 
 auto main() -> int {
     if (!std::filesystem::exists(DATASTORE_PATH)) {
